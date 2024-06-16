@@ -104,7 +104,7 @@ echo %RESET%
 echo =======================================================================================================
 
 
-set "folderPath=C:\Users\Lakshay Sharma\CODE PLAYGROUND\CP0\"  
+set "folderPath=C:\"  
 set "projectFiles=" %
 
 :: Prompt user for parent folder location...
