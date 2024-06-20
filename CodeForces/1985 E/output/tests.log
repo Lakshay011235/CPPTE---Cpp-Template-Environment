@@ -1,0 +1,8 @@
+1 718 899 205 099 930 	|	Input buffer redirected : cin to input file
+1 718 899 205 099 930 	|	Output buffer redirected : cout to output file
+1 718 899 205 099 930 	|	Executing function...
+1 718 899 205 099 930 	|	Restored cin and cout buffers to original state
+1 718 899 205 102 445 	|	Opening the output and expected output files
+1 718 899 205 102 445 	|	Comparing Line [1] Expected : 8	 Got : 7
+1 718 899 205 102 445 	|	Test failed
+1 718 899 205 102 445 	|	Time taken: 0.000000

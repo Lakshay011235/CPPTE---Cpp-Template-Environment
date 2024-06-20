@@ -2,15 +2,29 @@
 
 This include a script is used to create a new template folder with C++ executable environment and other script to run test files against cpp files.
 
-__FOR QUICK USE__: [online gdb](https://onlinegdb.com/BDwTxs-AM)
-
-https://onlinegdb.com/BDwTxs-AM
+__FOR QUICK USE__: https://onlinegdb.com/BDwTxs-AM
 
 __Features:__
 
    1. Ready-to-use c++ environment
    2. Advanced logging and testing support
    3. Simple to use input and output txt files for interview like experience
+
+__NEW__:
+
+## CODE FORCES UPDATE
+
+
+- Get ready to experience the ideal environment for codeforces problems
+- Just enter the contest_id and index,(1985 E) and get the entire problem with an executable system.
+
+### How to use
+
+1. Open the `code_forces_template.bat` in CodeForces folder
+2. Enter your problem's __contest_id__ and __index__ (1985 E)
+3. Code the hell out of problems.
+
+_Note:_ This requires the python interpreter (>=3.9.x) to be installed. Also, install requests library (`pip install requests`).
 
 __Default structure:__
 
@@ -37,6 +51,7 @@ Parent directory
 __How to use:__
 
 - Make sure to install g++ compiler before running this script
+- First-use: Change the folderPath in this file to your prefered directory to avoid opening at root.
 - Select the folder where you want to create the environment
 - Enter the folder name. Spaces are not be recommended.
 - Choose whether you want test file.
@@ -50,10 +65,11 @@ __NOTE:__ This script is made for Windows 10 and above. If you use linux, you ar
 
 ---
 
-_Common Errors:_
+__Common Errors:__
 
-- Error in making of C++ file: please use the template.cpp defined in the comments of this file to override the sample content.
-- Error in compilation of C++ file: please use the test_suite.h defined in the comments of this file or check if the C++ compiler is of version 17 and above.
+- Error in making of C++ file: please use the `template.cpp` defined in the comments of this file to override the sample content.
+- Error in compilation of C++ file: please use the `test_suite.h` defined in the comments of this file or check if the C++ compiler is of version 17 and above.
+- Error in execution of python file: please use the `main.py` defined in the comments of this file. `#CODE_FORCES_ONLY`
 - Error in dialog box opening: Install powershell (recommended) or set the selectedFolder variable to folderPath in the code `set "selectedFolder=%folderPath%"` 
 
 ---
