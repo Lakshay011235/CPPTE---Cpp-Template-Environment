@@ -1,2 +1,4 @@
 desktop.ini
 .vscode
+CodeForces/*
+!CodeForces/1985 E

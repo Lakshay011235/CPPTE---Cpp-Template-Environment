@@ -8,8 +8,8 @@ if not os.path.exists( "../problemset.json"):
     data = json.loads( problem_set_json)["result"]["problems"]  
   
 else:  
-    with open( 'problemset.json', 'r', encoding='utf-8') as file:  
-        data = json.load( file)  
+    with open('problemset.json', 'r', encoding='utf-8') as file:  
+        data = json.load(file)  
   
   
   

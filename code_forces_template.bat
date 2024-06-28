@@ -93,7 +93,7 @@ echo to folderPath in the code ^set ^"selectedFolder=%%folderPath%%^"
 echo =======================================================================================================
 
 
-set "folderPath=C:\Users\Lakshay Sharma\CODE PLAYGROUND\CP0\CodeForces" 
+set "folderPath=C:\Users\" 
 
 :: Prompt user for parent folder location...
 for /f "delims=" %%a in ('powershell -Command "Add-Type -AssemblyName System.Windows.Forms; $folderBrowser = New-Object System.Windows.Forms.FolderBrowserDialog; $folderBrowser.SelectedPath = '%folderPath%'; $folderBrowser.ShowDialog() | Out-Null; echo $($folderBrowser.SelectedPath)"') do (
